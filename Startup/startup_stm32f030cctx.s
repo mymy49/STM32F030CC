@@ -162,9 +162,9 @@ g_pfnVectors:
   .word	EXTI2_3_IRQHandler            			/* EXTI Line[3:2] interrupts                             */
   .word	EXTI4_15_IRQHandler           			/* EXTI Line15 and EXTI4 interrupts                      */
   .word	0                             			/* Reserved                                              */
-  .word	DMA1_CH1_IRQHandler           			/* DMA1 channel 1 interrupt                              */
-  .word	DMA1_CH2_3_IRQHandler         			/* DMA1 channel 2 and 3 interrupt                        */
-  .word	DMA1_CH4_5_IRQHandler         			/* DMA1 channel 4 and 5 interrupt                        */
+  .word	DMA1_Channel1_IRQHandler           	/* DMA1 channel 1 interrupt                              */
+  .word	DMA1_Channel2_3_IRQHandler         	/* DMA1 channel 2 and 3 interrupt                        */
+  .word	DMA1_Channel4_5_IRQHandler         	/* DMA1 channel 4 and 5 interrupt                        */
   .word	ADC_IRQHandler                			/* ADC interrupt                                         */
   .word	TIM1_BRK_UP_TRG_COM_IRQHandler			/* TIM1 break, update, trigger and commutation interrupt */
   .word	TIM1_CC_IRQHandler            			/* TIM1 Capture Compare interrupt                        */
@@ -182,7 +182,7 @@ g_pfnVectors:
   .word	SPI2_IRQHandler               			/* SPI2 global interrupt                                 */
   .word	USART1_IRQHandler             			/* USART1 global interrupt                               */
   .word	USART2_IRQHandler             			/* USART2 global interrupt                               */
-  .word	USART3_4_5_6_IRQHandler       			/* USART3, USART4, USART5, USART6 global interrupt       */
+  .word	USART3_6_IRQHandler       				/* USART3, USART4, USART5, USART6 global interrupt       */
   .word	0                             			/* Reserved                                              */
   .word	USB_IRQHandler                			/* USB global interrupt                                  */
 
@@ -233,14 +233,14 @@ g_pfnVectors:
 	.weak	EXTI4_15_IRQHandler
 	.thumb_set EXTI4_15_IRQHandler,Default_Handler
 
-	.weak	DMA1_CH1_IRQHandler
-	.thumb_set DMA1_CH1_IRQHandler,Default_Handler
+	.weak	DMA1_Channel1_IRQHandler
+	.thumb_set DMA1_Channel1_IRQHandler,Default_Handler
 
-	.weak	DMA1_CH2_3_IRQHandler
-	.thumb_set DMA1_CH2_3_IRQHandler,Default_Handler
+	.weak	DMA1_Channel2_3_IRQHandler
+	.thumb_set DMA1_Channel2_3_IRQHandler,Default_Handler
 
-	.weak	DMA1_CH4_5_IRQHandler
-	.thumb_set DMA1_CH4_5_IRQHandler,Default_Handler
+	.weak	DMA1_Channel4_5_IRQHandler
+	.thumb_set DMA1_Channel4_5_IRQHandler,Default_Handler
 
 	.weak	ADC_IRQHandler
 	.thumb_set ADC_IRQHandler,Default_Handler
@@ -287,8 +287,8 @@ g_pfnVectors:
 	.weak	USART2_IRQHandler
 	.thumb_set USART2_IRQHandler,Default_Handler
 
-	.weak	USART3_4_5_6_IRQHandler
-	.thumb_set USART3_4_5_6_IRQHandler,Default_Handler
+	.weak	USART3_6_IRQHandler
+	.thumb_set USART3_6_IRQHandler,Default_Handler
 
 	.weak	USB_IRQHandler
 	.thumb_set USB_IRQHandler,Default_Handler
