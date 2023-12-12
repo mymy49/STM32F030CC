@@ -63,19 +63,23 @@
 extern Nvic nvic;
 #endif
 
-#if defined(STM32F4_N)
+#if defined(STM32F4)
 
 #include <targets/st/instance_stm32f4.h>
 
-#elif defined(STM32F0_N)
+#elif defined(STM32G4)
+
+#include <targets/st/instance_stm32g4.h>
+
+#elif defined(STM32F0)
 
 #include <targets/st/instance_stm32f0.h>
 
-#elif defined(STM32F1_N) || defined(GD32F1)
+#elif defined(STM32F1) || defined(GD32F1)
 
 #include <targets/st/instance_stm32f1.h>
 
-#elif defined(STM32F7_N)
+#elif defined(STM32F7)
 
 #include <targets/st/instance_stm32f7.h>
 
