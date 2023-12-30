@@ -45,16 +45,9 @@
   <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss"/>
   <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;config"/>
   <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc"/>
-  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc;cmsis"/>
-  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc;drv"/>
-  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc;mod"/>
-  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc;mod;rgb_tft_lcd"/>
-  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc;mod;tft_lcd_driver"/>
-  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc;targets"/>
-  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc;targets;st"/>
-  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;inc;yss"/>
   <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;src"/>
   <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;src;scheduler"/>
+  <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;src;std_ext"/>
   <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;src;system"/>
   <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;src;targets"/>
   <ProjectSessionItem path="Solution 'STM32F030CC';STM32F030CC;Source Files;yss;src;targets;common"/>
@@ -108,31 +101,14 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="29" useTextEdit="1" path="app/src/main.cpp" left="0" top="19" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="85" useTextEdit="1" path="app/inc/config.h" left="0" top="58" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="579" useTextEdit="1" path="../../../library/yss/src/scheduler/yss_scheduler.cpp" left="0" top="543" codecName="UTF-8"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="/home/mymy49/library/yss/inc/targets/st/stm32f0xx.h" path="../../../library/yss/inc/targets/st/stm32f030xc.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="166" useTextEdit="1" openedFrom="/home/mymy49/library/yss/inc/yss/instance.h" path="../../../library/yss/inc/targets/st/instance_stm32f0.h" left="0" top="152" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="/home/mymy49/library/yss/inc/yss/instance.h" path="../../../library/yss/inc/drv/peripheral.h" left="0" top="31" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="46" useTextEdit="1" openedFrom="/home/mymy49/library/yss/inc/drv/peripheral.h" path="../../../library/yss/inc/drv/mcu.h" left="0" top="33" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="29" y="9" useTextEdit="1" openedFrom="/home/mymy49/library/yss/inc/mod/rgb_tft_lcd/SF_TC240T_9370_T.h" path="../../../library/yss/inc/yss/instance.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="149" useTextEdit="1" openedFrom="/home/mymy49/library/yss/inc/drv/peripheral.h" path="../../../library/yss/inc/targets/st/stm32f0xx.h" left="0" top="129" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="51" useTextEdit="1" path="../../../library/yss/inc/drv/Adc.h" left="0" top="51" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="29" useTextEdit="1" path="../../../library/yss/inc/targets/st/instance_stm32f1.h" left="0" top="16" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="29" useTextEdit="1" path="../../../library/yss/inc/targets/st/instance_stm32f4.h" left="0" top="15" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="28" useTextEdit="1" path="../../../library/yss/inc/mod/rgb_tft_lcd/SF_TC240T_9370_T.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="40" useTextEdit="1" path="../../../library/yss/inc/drv/Ltdc.h" left="0" top="10" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="/home/mymy49/library/yss/inc/mod/rgb_tft_lcd/SF_TC240T_9370_T.h" path="../../../library/yss/inc/mod/tft_lcd_driver/ILI9341_spi.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="30" useTextEdit="1" path="../../../library/yss/inc/targets/st/instance_stm32f7.h" left="0" top="21" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="115" useTextEdit="1" path="../../../.rowley_associates_limited/CrossWorks for ARM/v4/packages/targets/STM32/STM32_Startup.s" left="0" top="108" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="68" useTextEdit="1" path="../../../library/yss/src/system/yss_init.cpp" left="0" top="40" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="57" useTextEdit="1" path="../../../library/yss/src/util/yss_runtime.cpp" left="0" top="39" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="67" useTextEdit="1" path="../../../library/yss/src/targets/Drv.cpp" left="0" top="21" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="31" y="399" useTextEdit="1" path="../../../library/yss/src/targets/st/instace/instance_timer_stm32.cpp" left="0" selected="1" top="389" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="34" useTextEdit="1" path="../../../library/yss/src/targets/common/drv_nvic.cpp" left="0" top="15" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="630" useTextEdit="1" path="../../../library/yss/inc/cmsis/core_cm0.h" left="0" top="606" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="84" useTextEdit="1" path="/usr/share/crossworks_for_arm_4.10/source/thumb_crt0.s" left="0" top="68" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="53" useTextEdit="1" path="../../../library/yss/src/targets/st/driver/drv_timer_stm32.cpp" left="0" top="45" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="10" y="31" useTextEdit="1" path="app/src/main.cpp" left="0" top="19" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="70" useTextEdit="1" path="../../yss/src/std_ext/yss_memdma.cpp" left="0" top="44" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="53" useTextEdit="1" path="../../yss/config/config_stm32f030xc.h" left="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="106" useTextEdit="1" path="app/inc/config.h" left="0" selected="1" top="91" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="39" useTextEdit="1" path="../../yss/src/targets/st/driver/drv_adc_stm32f0.cpp" left="0" top="13" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="164" useTextEdit="1" path="../../yss/src/targets/st/instace/instance_dma_stm32f0.cpp" left="0" top="158" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="64" useTextEdit="1" path="../../yss/src/targets/st/instace/instance_adc_stm32f0.cpp" left="0" top="48" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="161" useTextEdit="1" path="../../yss/src/targets/st/instace/instance_i2c_stm32f0.cpp" left="0" top="139" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="STM32F030CC" fileDialogDefaultFilter="*.c" autoConnectTarget="SEGGER J-Link" buildConfiguration="THUMB Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
